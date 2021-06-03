@@ -2,8 +2,8 @@
 title: "10 buenas practicas que debes seguir con Reactjs en 2020"
 date: 2020-05-21T20:57:33.233Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593531469/a5ipbvsrjgolmpmuqgij.jpg
-summary: 10 buenas practicas que debemos vigilar y aplicar en nuestras aplicaciones con Reactjs
-draft: false
+description: 10 buenas practicas que debemos vigilar y aplicar en nuestras aplicaciones con Reactjs
+public: true
 ---
 Como siempre las buenas prácticas o recomendaciones dependen del proyecto o la necesidades que tengamos, pero las buenas prácticas son lo que son, la mejor forma de hacer las cosas, aunque muchas veces por los famosos plazos de entrega no lleguemos a implementarlas todas.
  

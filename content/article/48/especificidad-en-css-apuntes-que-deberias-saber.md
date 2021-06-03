@@ -2,8 +2,8 @@
 title: "Especificidad en CSS: Apuntes que deberías saber"
 date: 2020-02-10T18:24:17.306Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1581359057/mdhr5msm6hkhehfciccx.jpg
-summary: La especificidad de CSS es la forma en que los navegadores aplican los estilos a nuestros elementos y que regla predomina sobre el otro.
-draft: true
+description: La especificidad de CSS es la forma en que los navegadores aplican los estilos a nuestros elementos y que regla predomina sobre el otro.
+public: false
 ---
 Cada capa del desarrollo de aplicaciones o páginas web son relativamente sencillas hasta que tienes que mantener un proyecto con 3 años de desarrollo, más de 30 personas trabajando en el código, pues el CSS no es una excepción, lo sencillo que puede ser al comienzo es lo que a su vez lo hace complejo. Cualquiera puede hacer CSS en un proyecto nuevo, pero mantenerlo o agregar nuevas funciones al código existente es otro proceso muy diferente.
 

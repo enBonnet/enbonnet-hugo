@@ -2,8 +2,8 @@
 title: "Construyendo un blog con Gatsby y Strapi"
 date: 2019-10-24T12:00:58.406Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593531991/jysxqbqpsaceys0mak0v.jpg
-summary: Inicio del tutorial para construir un blog con Gatsby y Strapi, parte 0. Las definiciones de lo que puedes esperar de esta guía y los requisitos técnicos que necesitas par acompletarla
-draft: false
+description: Inicio del tutorial para construir un blog con Gatsby y Strapi, parte 0. Las definiciones de lo que puedes esperar de esta guía y los requisitos técnicos que necesitas par acompletarla
+public: true
 ---
 Si estas aquí es porque seguramente en algún momento te has visto con ganas de crear un blog, un sitio web estático, pero quizás la opción más común ~~wordpress~~ no te parece la mejor, muchas veces puede ser como intentar matar una hormiga con un misil nuclear, aunque tiene millones de tutoriales, plugins e integraciones y para a fecha soporta alrededor del 30% del internet también tenemos otra opciones y una de esas opciones pueden ser [Gatsby](https://www.gatsbyjs.org) como parte del [JAMstack](https://jamstack.wtf/#what-is-jamstack) ~~no, no el amplificador de guitarras~~ y [Strapi](https://strapi.io/) como el gestor de contenidos ~~CMS~~ ambos son herramientas de código abierto que puedes utilizar según lo necesites.
  

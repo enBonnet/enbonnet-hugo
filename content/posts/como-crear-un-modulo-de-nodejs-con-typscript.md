@@ -2,8 +2,8 @@
 title: "Como crear un modulo de Nodejs con Typscript"
 date: 2019-11-14T14:46:17.923Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593531531/ebwvesyjg4zwjyng4ker.jpg
-summary: Siempre llegaras al punto en que necesitas compartir lógica de tu aplicación y aquí te quiero mostrar como hacerlo con un paquete de Nodejs con Typescript
-draft: false
+description: Siempre llegaras al punto en que necesitas compartir lógica de tu aplicación y aquí te quiero mostrar como hacerlo con un paquete de Nodejs con Typescript
+public: true
 ---
 Cuando tu aplicación comienza a crecer o tenemos varias aplicaciones funcionando en paralelo te puedes ver en la necesidad de compartir lógica o ciertas funciones entre ellas, en el caso de Nodejs cuando creas un paquete sin Typescript y lo quieres usar en un proyecto con este, deberías instalar los types de forma independiente o agregarle un mítico `// @ts-ignore` y nadie quiere eso **guiño guiño**.
  

@@ -2,8 +2,8 @@
 title: "Construir API Golang con Fiber"
 date: 2020-06-26T17:59:25.300Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593531451/ah3u2hiparvqxcgwnvtb.jpg
-summary: Fiber es un framework web que nos puede ayudar a crear una API con sabores similares a Express de Nodejs
-draft: false
+description: Fiber es un framework web que nos puede ayudar a crear una API con sabores similares a Express de Nodejs
+public: true
 ---
 [Fiber](https://github.com/gofiber/fiber/) es un framework de Golang, inspirado en Express de Nodejs, uno de los más utilizados para construir API web actualmente, es una alternativa muy viable si vienes desde Nodejs a Golang.
  

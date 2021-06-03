@@ -2,8 +2,8 @@
 title: "Contribuir en el Hacktoberfest 2019"
 date: 2019-10-20T18:38:16.269Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593530754/bc095ss11mx6cpr3kejn.jpg
-summary: Una pequeña guía explicativa de que es el hacktoberfest, cuales son las reglas, como comenzar a contribuir y algunos proyectos por donde comenzar
-draft: false
+description: Una pequeña guía explicativa de que es el hacktoberfest, cuales son las reglas, como comenzar a contribuir y algunos proyectos por donde comenzar
+public: true
 ---
 # ¿Que es el hacktoberfest?
 Cada año durante octubre se celebra el Hacktoberfest una hackaton virtual internacional durante todo el mes que busca incentivar el desarrollo de software de código libre, durante esta fecha muchos repositorios abiertos en github tratan de sacar adelante mejoras o actualizaciones para involucrar a la comunidad a nivel mundial.

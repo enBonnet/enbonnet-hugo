@@ -2,8 +2,8 @@
 title: "Construyendo un blog con Gastby y Strapi, parte 3 - Desplegando Strapi en Heroku"
 date: 2019-10-25T21:30:25.371Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593532028/zkkvliimjbcbl9imhxsc.jpg
-summary: Parte 3 de la guía para construir un blog con Gatsby y Strapi, enfocado en el despliegue de Strapi en Heroku, utilizando una base de datos postgres 
-draft: false
+description: Parte 3 de la guía para construir un blog con Gatsby y Strapi, enfocado en el despliegue de Strapi en Heroku, utilizando una base de datos postgres 
+public: true
 ---
 Este artículo es la parte 3 de la guía "Construyendo un blog con Gatsby y Strapi" en esta parte nos enfocaremos en desplegar Strapi sobre Heroku, si quieres mirar los artículos anteriores o siguientes:
  

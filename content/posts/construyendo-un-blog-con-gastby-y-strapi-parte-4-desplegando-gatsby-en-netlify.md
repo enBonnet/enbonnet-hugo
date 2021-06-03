@@ -2,8 +2,8 @@
 title: "Construyendo un blog con Gastby y Strapi, parte 4 - Desplegando Gatsby en Netlify"
 date: 2019-10-25T22:23:15.546Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593532047/xvmu0d7v171kmbdzm0va.jpg
-summary: Parte 4 de la guía para construir un blog con Gatsby y Strapi, enfocado en el despliegue de Gatsby en Netlify, con un proyecto base en Github e integración continua
-draft: false
+description: Parte 4 de la guía para construir un blog con Gatsby y Strapi, enfocado en el despliegue de Gatsby en Netlify, con un proyecto base en Github e integración continua
+public: true
 ---
 Este artículo es la parte 4 de la guía "Construyendo un blog con Gatsby y Strapi" en esta parte nos enfocaremos en desplegar Gatsby sobre Netlify, si quieres mirar los artículos anteriores o siguientes:
 - [Construyendo un blog con Gastby y Strapi, parte 0](https://enbonnet.me/article/5/construyendo-un-blog-con-gatsby-y-strapi)

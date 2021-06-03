@@ -2,8 +2,8 @@
 title: "Como configurar TailwindCSS con Nextjs y TypeScript"
 date: 2020-11-02T16:10:36.472Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1604333437/dkqaek6qbzsg95c8sdiy.jpg
-summary: Una guía rápida para configurar TailwindCSS con TypeScript en un proyecto de Nextjs, además de PostCSS-PurgeCSS para optimizar el CSS.
-draft: false
+description: Una guía rápida para configurar TailwindCSS con TypeScript en un proyecto de Nextjs, además de PostCSS-PurgeCSS para optimizar el CSS.
+public: true
 ---
 Si tienes dudas de como iniciar un proyecto con Nextjs con TypeScript por aqui te dejo otro articulo en se explica como hacerlo [Como agregar TypeScript a Nextjs en 2 pasos](https://enbonnet.me/article/55/como-agregar-typescript-a-nextjs-en-2-pasos).
 

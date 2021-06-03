@@ -2,8 +2,8 @@
 title: "Construir API Rest Nodejs Serverless con AWS Lambda y Aurora Serverless"
 date: 2020-04-19T15:42:01.283Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593531494/sjfaloyszemwslzf4yxn.jpg
-summary: Crear una api REST con nodejs sobre AWS Lambda y Aurora Serverless SQL
-draft: false
+description: Crear una api REST con nodejs sobre AWS Lambda y Aurora Serverless SQL
+public: true
 ---
 Esta es la segunda guía para construir una API Serverless con AWS, la primera la puedes encontrar [acá](https://enbonnet.me/article/2/construir-api-nodejs-serverless-con-aws-lambda-y-dyanmodb) la diferencía son las bases de datos, si quieres saber un poco más sobre que opino al respecto de Serverless pros y contras en ese árticulo explico un poco más, en este vamos a ir directo a donde las papas queman.
 

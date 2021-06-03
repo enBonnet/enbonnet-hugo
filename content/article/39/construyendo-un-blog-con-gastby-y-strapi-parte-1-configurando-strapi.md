@@ -2,8 +2,8 @@
 title: "Construyendo un blog con Gastby y Strapi, parte 1 - Configurando Strapi"
 date: 2019-10-25T17:18:00.351Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593532011/xtguzkwvxel6z7oumffm.jpg
-summary: Parte 1 de la guía para construir un blog con Gatsby y Strapi, enfocado en la configuración de Strapi para poder consumir los artículos como una API.
-draft: false
+description: Parte 1 de la guía para construir un blog con Gatsby y Strapi, enfocado en la configuración de Strapi para poder consumir los artículos como una API.
+public: true
 ---
 Este artículo es la parte 1 de la guía "Construyendo un blog con Gatsby y Strapi" en esta parte nos enfocaremos en configurar Strapi par que podamos consumir la data tal cual como una API, si quieres mirar los artículos anteriores o siguientes:
  

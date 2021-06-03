@@ -2,8 +2,8 @@
 title: "No instales Mysql o Mariadb, utiliza docker"
 date: 2020-04-19T16:39:08.834Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593531211/sqfpcslab7khpq5ipsxu.jpg
-summary: Poder utilizar una base de datos mysql o mariadb sin necesidad de instalar en tu sistema.
-draft: false
+description: Poder utilizar una base de datos mysql o mariadb sin necesidad de instalar en tu sistema.
+public: true
 ---
 En cada uno de los comandos que verás en esta guía puedes sustituir `mysql` por `mariadb` y funcionará de la misma manera.
 

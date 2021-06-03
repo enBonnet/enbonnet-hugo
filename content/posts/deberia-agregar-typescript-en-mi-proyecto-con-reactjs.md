@@ -2,8 +2,8 @@
 title: "¿Debería agregar TypeScript en mi proyecto con Reactjs?"
 date: 2020-07-21T23:03:53.540Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1595372633/ik4b6ag2mghkftchtimz.jpg
-summary: Si te estas preguntando si vale la pena TypeScript o tienes ganas de hacer todo desde cero con TS quizás te pueda ayudar en algo aquí.
-draft: true
+description: Si te estas preguntando si vale la pena TypeScript o tienes ganas de hacer todo desde cero con TS quizás te pueda ayudar en algo aquí.
+public: false
 ---
 Este es un árticulo bastente opinionado, no solo por mi, estuve conversando con algunes devs en un [tweet relacionado](https://twitter.com/enBonnet/status/1285573234621063173). 
 

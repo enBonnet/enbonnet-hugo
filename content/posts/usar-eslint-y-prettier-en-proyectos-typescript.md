@@ -2,8 +2,8 @@
 title: "Usar ESLint y Prettier en proyectos TypeScript"
 date: 2019-11-21T18:30:51.042Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593531553/oimlzcmt0t742h3vbr81.jpg
-summary: Configurar ESLint en tu proyecto de Nodejs o React con Typescript.
-draft: false
+description: Configurar ESLint en tu proyecto de Nodejs o React con Typescript.
+public: true
 ---
 Siempre le estaré agradecido a [@xabadu](https://twitter.com/xabadu) quien me enseño a utilizar y configurar estas herramientas en mis proyectos, desde ese momento los necesito casi en cualquier proyecto, como lo dije en un tweet, "Me ayudan a proteger el código de mí mismo", en esos días de flojera cuando piensas "total si así funciona...", quieres subirlo pero el linter te advierte que eso será un problema para tú yo del futuro y si estás trabajando en equipo ya no son opcionales, son obligatorios. Todos escribimos código de forma diferente y si no tienes un estándar mínimo de lo que se espera de tu código llegara el momento en que será imposible de leer sin dedicarle más tiempo del que queremos.
  

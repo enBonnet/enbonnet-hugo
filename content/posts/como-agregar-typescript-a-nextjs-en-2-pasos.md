@@ -2,8 +2,8 @@
 title: "Como agregar TypeScript a Nextjs en 2 pasos"
 date: 2020-11-02T00:25:07.645Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1604276707/tejk4dmtbrd5heapxlsd.jpg
-summary: Una guía para agregar TypeScript a un proyecto con Nextjs
-draft: false
+description: Una guía para agregar TypeScript a un proyecto con Nextjs
+public: true
 ---
 Nextjs puede ser de gran ayuda para sacarle provecho a Reactjs, cuando le agregamos TypeScript puede llegar a ser aún mejor.
  

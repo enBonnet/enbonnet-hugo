@@ -2,8 +2,8 @@
 title: "No instales postgres, solo utiliza docker"
 date: 2019-10-12T22:03:23.036Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593530680/cmw4tvn6sal5dmm1cdsr.jpg
-summary: Comandos que necesitas para desplegar un contenedor docker que tenga de base la imagen oficial de postgres y algunas configuraciones
-draft: false
+description: Comandos que necesitas para desplegar un contenedor docker que tenga de base la imagen oficial de postgres y algunas configuraciones
+public: true
 ---
 Para utilizar la imagen de Postgres en Docker, lo primero es bajarla a tu computador:
  

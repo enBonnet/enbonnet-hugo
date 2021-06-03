@@ -2,8 +2,8 @@
 title: "Mejorar el rendimiento de una aplicación con ReactJS"
 date: 2020-11-28T20:53:33.048Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1606606341/xmccoywt1knuhbtvf10f.jpg
-summary: Técnicas que nos pueden ayudar a mejorar el rendimiento de nuestra aplicación ReactJS, disminuyendo el consumo de Memoría y CPU.
-draft: false
+description: Técnicas que nos pueden ayudar a mejorar el rendimiento de nuestra aplicación ReactJS, disminuyendo el consumo de Memoría y CPU.
+public: true
 ---
 En toda aplicación con ReactJS mediana o grande siempre llegará el momento en que necesitamos mejorar el rendimiento de la aplicación, este es el punto en el que te puedes detener a pensar en que el rendimiento depende de muchas cosas, el navegador que ejecuta el código, la versión del navegador, el dispositivo en donde se está ejecutando nuestra aplicación, la latencia de la red que tiene el usuario, todos estos puntos son importantes y debemos tenerlos en cuenta, pero en este artículo te quiero compartir lo que podamos hacer desde el lado de ReactJS para mejorar el rendimiento en general.
  

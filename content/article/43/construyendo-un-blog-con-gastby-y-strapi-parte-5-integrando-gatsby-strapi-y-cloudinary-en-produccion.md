@@ -2,8 +2,8 @@
 title: "Construyendo un blog con Gastby y Strapi, parte 5 - Integrando Gatsby, Strapi y Cloudinary en producción"
 date: 2019-10-25T22:53:48.413Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593532131/xm2jsv1nwpb7lfax016q.jpg
-summary: Parte 5 de la guía para construir un blog con Gatsby y Strapi, en integrar los proyectos desplegados en producción y cloudinary
-draft: false
+description: Parte 5 de la guía para construir un blog con Gatsby y Strapi, en integrar los proyectos desplegados en producción y cloudinary
+public: true
 ---
 Este artículo es la parte 5 de la guía "Construyendo un blog con Gatsby y Strapi" en esta parte nos enfocaremos en integrar los proyectos desplegados en producción y Cloudinary, si quieres mirar los artículos anteriores:
 

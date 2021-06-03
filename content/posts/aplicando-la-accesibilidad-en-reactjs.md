@@ -2,8 +2,8 @@
 title: "Aplicando la accesibilidad en Reactjs"
 date: 2019-11-22T20:01:41.599Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593532155/yg8mlzib4ijppxtuayup.jpg
-summary: Como aplicar y auditar la accesibilidad de una aplicación en Reactjs, extensiones, modulos y plugins que puedes usar.
-draft: false
+description: Como aplicar y auditar la accesibilidad de una aplicación en Reactjs, extensiones, modulos y plugins que puedes usar.
+public: true
 ---
 Luego de leer el maravilloso árticulo de [@CristinaGrim](https://twitter.com/CristinaGrim), [Quiero hacer mi web accesible, pero no sé por dónde empezar](https://octuweb.com/quiero-hacer-mi-web-accesible/) quede con la duda de ¿Como puedo aplicar esto a Reactjs?, ¿Que forma puedo validar que los cambios que estoy haciendo en mi aplicación realmente mejoran la accesibilidad? y de este artículo se basa precisamente en esas preguntas.
  

@@ -2,8 +2,8 @@
 title: "Construir API Node.js Serverless con AWS Lambda y DyanmoDB"
 date: 2019-10-14T13:29:43.738Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593530707/tspflpgizskmqkpnfawn.jpg
-summary: Una forma sencilla de construir una API Node.js utilizando el framework de Serverless y Express
-draft: false
+description: Una forma sencilla de construir una API Node.js utilizando el framework de Serverless y Express
+public: true
 ---
 
 Una de las ultimas tecnologías que se ha introducido a nuestra cartera de posibilidades es la metodología serverless, en mi opinión una de las mas convenientes, con un muy buen balance de costo y beneficio. Utilizando este se reduce mucho el tiempo de despliegue de una aplicación y dedicarle más tiempo a la programación de funciones que aporten valor.

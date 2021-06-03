@@ -2,8 +2,8 @@
 title: "Iniciar React con magia de Parcel"
 date: 2019-10-14T13:32:59.670Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593530728/fjqr6kuxaxblqdl3edm2.jpg
-summary: La forma más sencilla de levantar una app de React
-draft: false
+description: La forma más sencilla de levantar una app de React
+public: true
 ---
 Iniciar un nuevo proyecto, no es algo que hagamos todos los días, pero siempre tiene una emoción especial. Siempre hay algo nuevo que queremos probar en cada `init`. Una de las barreras para comenzar a trabajar con React puede ser la configuración que requiere `webpack`, para eso se creó el famoso módulo que nos facilita la vida `create-react-app` que en su versión 2 vino con muchas mejoras muy interesantes, gracias a la magia de los `react-scripts` podemos tener `webpack`, `babel` y todo lo que necesita React funcionando en un par de minutos.
 

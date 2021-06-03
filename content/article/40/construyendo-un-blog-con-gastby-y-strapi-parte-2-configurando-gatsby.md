@@ -2,8 +2,8 @@
 title: "Construyendo un blog con Gastby y Strapi, parte 2 - Configurando Gatsby"
 date: 2019-10-25T19:40:46.391Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593532112/jb8ffxlysv14rqtqpqz0.jpg
-summary: Parte 2 de la guía para construir un blog con Gatsby y Strapi, enfocado en la configuración de Gatsby para poder mostrar los artículos al usuario.
-draft: false
+description: Parte 2 de la guía para construir un blog con Gatsby y Strapi, enfocado en la configuración de Gatsby para poder mostrar los artículos al usuario.
+public: true
 ---
 Este artículo es la parte 2 de la guía "Construyendo un blog con Gatsby y Strapi" en esta parte nos enfocaremos en configurar Gatsby para poder mostrar la información que nos expone la API, si quieres mirar los artículos anteriores o siguientes:
  

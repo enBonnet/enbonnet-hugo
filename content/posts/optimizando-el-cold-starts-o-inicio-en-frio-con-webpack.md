@@ -2,8 +2,8 @@
 title: "Optimizando el cold starts o inicio en frío con webpack"
 date: 2020-04-19T20:44:29.660Z
 featured_image: https://res.cloudinary.com/enbonnet/image/upload/v1593531230/mnh5gvuwrgkfzlamynor.jpg
-summary: Mejorar el tiempo de enfriamiento o cold starts de nuestras lambda gracias a webpack
-draft: false
+description: Mejorar el tiempo de enfriamiento o cold starts de nuestras lambda gracias a webpack
+public: true
 ---
 A pesar de que AWS hace un excelente trabajo para que se note lo menos posible el cold starts de una función lambda, aún hay cosas que podemos hacer para ayudar a reducir ese tiempo. En lo personal me parece increíble que en 4 segundos se levante un servidor, quien sabe donde, conecte a la base de datos, haga las operaciones y responda.
  
