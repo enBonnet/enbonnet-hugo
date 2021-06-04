@@ -1,6 +1,6 @@
 {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
 {{ if gt $pag.TotalPages 1 -}}
-<nav class="pagination is-centered" role="navigation" aria-label="pagination">
+<nav class="pagination-index" role="navigation" aria-label="pagination">
     <span class="button previous">
       {{ if .Paginator.HasPrev }}
         <a href="{{ .Paginator.Prev.URL }}">

@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = "es"
 theme = "terminal"
 paginate = 5
+disqusShortname = "enbonnet"
 
 [params]
   # dir name of your main content (default is `content/posts`).
