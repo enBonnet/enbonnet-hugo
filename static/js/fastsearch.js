@@ -1,10 +1,9 @@
 let fuse; // holds our search engine
-let searchVisible = false;
 let firstRun = true; // allow us to delay loading json data unless search activated
 let list = document.getElementById("searchResults"); // targets the <ul>
 let first = list.firstChild; // first child of search list
 let last = list.lastChild; // last child of search list
-let maininput = document.getElementById("searchInput"); // input box for search
+let mainInput = document.getElementById("searchInput"); // input box for search
 let resultsAvailable = false; // Did we get any search results?
 const metaKey = "Meta";
 const switchKey = "Shift";
@@ -13,7 +12,6 @@ const arrowUpKey = "ArrowUp";
 const arrowDownKey = "ArrowDown";
 const escapeKey = "Escape";
 
-// ==========================================
 // The main keyboard event listener running the show
 //
 function keyPressed(event) {
@@ -24,35 +22,35 @@ function keyPressed(event) {
       loadSearch(); // loads our json data and builds fuse.js search index
       firstRun = false; // let's never do this again
     }
-
-    // Toggle visibility of search box
-    if (!searchVisible) {
-      document.getElementById("fastSearch").style.visibility = "visible"; // show search box
-      document.getElementById("searchInput").focus(); // put focus in input box so you can just start typing
-      searchVisible = true; // search visible
-    } else {
-      document.getElementById("fastSearch").style.visibility = "hidden"; // hide search box
-      document.activeElement.blur(); // remove focus from search box
-      searchVisible = false; // search not visible
-    }
+    mainInput.focus(); // put focus in input box so you can just start typing
   }
 
-  if (event.key == escapeKey) {
-    if (searchVisible) {
-      document.getElementById("fastSearch").style.visibility = "hidden";
-      document.activeElement.blur();
-      searchVisible = false;
-    }
+  if (
+    event.key === escapeKey &&
+    (list.contains(document.activeElement) ||
+      document.activeElement === mainInput)
+  ) {
+    document.activeElement.blur();
+    mainInput.value = "";
+    resultsAvailable = false;
+    list.innerHTML = null;
   }
 
-  if (event.key == arrowDownKey) {
-    if (searchVisible && resultsAvailable) {
-      console.log("down");
+  if (
+    event.key === "Backspace" &&
+    mainInput === document.activeElement &&
+    mainInput.value === ""
+  ) {
+    resultsAvailable = false;
+  }
+
+  if (event.key === arrowDownKey) {
+    if (resultsAvailable) {
       event.preventDefault(); // stop window from scrolling
-      if (document.activeElement == maininput) {
+      if (document.activeElement === mainInput) {
         first.focus();
       } // if the currently focused element is the main input --> focus the first <li>
-      else if (document.activeElement == last) {
+      else if (document.activeElement === last) {
         last.focus();
       } // if we're at the bottom, stay there
       else {
@@ -61,14 +59,14 @@ function keyPressed(event) {
     }
   }
 
-  if (event.key == arrowUpKey) {
-    if (searchVisible && resultsAvailable) {
+  if (event.key === arrowUpKey) {
+    if (resultsAvailable) {
       event.preventDefault(); // stop window from scrolling
-      if (document.activeElement == maininput) {
-        maininput.focus();
+      if (document.activeElement === mainInput) {
+        mainInput.focus();
       } // If we're in the input box, do nothing
-      else if (document.activeElement == first) {
-        maininput.focus();
+      else if (document.activeElement === first) {
+        mainInput.focus();
       } // If we're at the first item, go to input box
       else {
         document.activeElement.parentElement.previousSibling.firstElementChild.focus();
@@ -77,16 +75,22 @@ function keyPressed(event) {
   }
 }
 
-document.addEventListener("keydown", keyPressed);
+function clickSearch() {
+  if (firstRun) {
+    loadSearch();
+    firstRun = false;
+  }
+}
 
-// ==========================================
+document.addEventListener("keydown", keyPressed);
+mainInput.addEventListener("click", clickSearch);
+
 // execute search as each character is typed
 //
 document.getElementById("searchInput").onkeyup = function (e) {
   executeSearch(this.value);
 };
 
-// ==========================================
 // fetch some json without jquery
 //
 function fetchJSONFile(path, callback) {
@@ -103,7 +107,6 @@ function fetchJSONFile(path, callback) {
   httpRequest.send();
 }
 
-// ==========================================
 // load our search index, only executed once
 // on first call of search box (CMD-/)
 //
@@ -122,7 +125,6 @@ function loadSearch() {
   });
 }
 
-// ==========================================
 // using the index we loaded on CMD-/, run
 // a search query (for "term") every time a letter is typed
 // in the search box
@@ -153,7 +155,7 @@ function executeSearch(term) {
     resultsAvailable = true;
   }
 
-  document.getElementById("searchResults").innerHTML = searchitems;
+  list.innerHTML = searchitems;
   if (results.length > 0) {
     first = list.firstChild.firstElementChild; // first result container — used for checking against keyboard up/down location
     last = list.lastChild.firstElementChild; // last result container — used for checking against keyboard up/down location
