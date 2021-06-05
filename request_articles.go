@@ -40,7 +40,7 @@ var articleRoute = baseDir + articlePath
 var postsRoute = baseDir + postsPath
 var contentPaths = [2]string{articlePath, articleRoute}
 
-func write_article_file(file *os.File, article *Article) {
+func writeArticleFile(file *os.File, article *Article) {
 	w := bufio.NewWriter(file)
 	w.WriteString("---")
 	w.WriteByte('\n')
@@ -60,7 +60,7 @@ func write_article_file(file *os.File, article *Article) {
 	w.Flush()
 }
 
-func remove_content() {
+func removeContent() {
 	for _, path := range contentPaths {
 		errRmv := os.RemoveAll(path)
 		if errRmv != nil {
@@ -69,7 +69,7 @@ func remove_content() {
 	}
 }
 
-func request_articles() []Article {
+func requestArticles() []Article {
 	res, err := http.Get(apiBaseUrl + allPost)
 	if err != nil {
 		log.Fatal(err)
@@ -89,8 +89,8 @@ func request_articles() []Article {
 }
 
 func main() {
-	remove_content()
-	articles := request_articles()
+	removeContent()
+	articles := requestArticles()
 
 	for _, article := range articles {
 		fmt.Printf("🚀  %s\n", article.Title)
@@ -111,7 +111,7 @@ func main() {
 				log.Fatal((errCreateArticles))
 			}
 
-			write_article_file(articleFile, &article)
+			writeArticleFile(articleFile, &article)
 		}
 	}
 }
