@@ -71,7 +71,7 @@ disqusShortname = "enbonnet"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "Sobre mi"
-        url = "/about"
+        url = "/sobremi"
       [[languages.en.menu.main]]
         identifier = "charlas"
         name = "Charlas"
