@@ -44,6 +44,9 @@ disqusShortname = "enbonnet"
   creator = "enBonnet"
   site = "https://enbonnet.me"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [languages]
   [languages.en]
     languageName = "Español"
