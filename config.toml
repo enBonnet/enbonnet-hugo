@@ -1,4 +1,4 @@
-baseurl = "enbonnet.com"
+baseurl = "https://enbonnet.com"
 languageCode = "es"
 theme = "terminal"
 paginate = 5
