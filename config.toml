@@ -9,6 +9,8 @@ disqusShortname = "enbonnet"
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
 
+  images = ["images/enbonnet_lofi.png"]
+
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
 
