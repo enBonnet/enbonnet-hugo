@@ -2,7 +2,7 @@
 title: Sobre mi
 ---
 
-Hola, Mi nombre es **Ender Bonnet**.
+Hola, mi nombre es **Ender Bonnet**.
 
 Siempre es difícil hablar sobre uno mismo, pero te cuento que tengo más de la mitad de mi vida sin peinarme. Soy papá de Ethan y de Kyra, un entusiasta de compartir conocimientos, hablar sobre programación, también podemos hablar de Star Wars, Formula 1 _Grande Checo_ y Café en sus variedades de granos.
 
