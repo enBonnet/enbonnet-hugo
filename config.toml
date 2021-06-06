@@ -10,6 +10,7 @@ disqusShortname = "enbonnet"
   contentTypeName = "posts"
 
   images = ["images/enbonnet_lofi.png"]
+  cover = "images/enbonnet_lofi.png"
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
