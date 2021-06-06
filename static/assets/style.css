@@ -59,6 +59,11 @@
 #searchResults a:hover, a:focus { outline: 0; background-color: #666; color: #fff; }
 #searchResults {margin-left: 0; width: 100%;}
 
+.share {
+  display: flex;
+  gap: 8px;
+}
+
 .facebook, .twitter, .linkedin {
   text-decoration: none;
   color: var(--accent);
