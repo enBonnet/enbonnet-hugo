@@ -51,7 +51,7 @@ disqusShortname = "enbonnet"
   [languages.en]
     languageName = "Español"
     title = "enBonnet"
-    subtitle = "YAB Yeah another blog"
+    subtitle = "YAB yeah another blog"
     owner = "Ender Bonnet"
     keywords = "JavaScript, Golang, TypeScript, Programming, Programación, Español"
     copyright = ""
