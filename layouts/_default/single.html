@@ -1,8 +1,11 @@
 {{ define "main" }}
 <div class="post">
+  {{ partial "social-share.html" . }}
+
   <h1 class="post-title">
     <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
   </h1>
+
   <div class="post-meta">
     {{ if .Params.Date }}
     <span class="post-date">
@@ -50,6 +53,8 @@
     </div>
     {{- end -}}
   </div>
+
+  {{ partial "social-share.html" . }}
 
   {{ if eq .Type $.Site.Params.contentTypeName }}
   {{ partial "posts_pagination.html" . }}
